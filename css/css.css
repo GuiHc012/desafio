@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.div-cabecalho{
+    margin-bottom: -150px;
+}
+
+.fundo{
+    background-position: center;
+    width:100%;
+    height: 115%;
+    display: flex;
+    position: absolute;
+    margin: 0;
+    object-fit: cover ;
+    z-index: -1;
+}
+
+.logo{
+    margin: 2% 0 0 2%;
+    width: 200px;
+    position: relative;
+}
+
+.img-inicial{
+    top: -270px;
+    left: 58%;
+    width: 632px;
+    height: 532px;
+    border-radius: 50%;
+    position: relative;
+    object-fit: cover ;
+}
+
+.div-titulo-geral{
+    color: white;
+    width: 380px;
+    height: 100px;
+    top: -490px;
+    left: 13%;
+    position: relative;
+}
+
+.titulo{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo2{
+    font-weight: normal;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-conhecer{
+    text-decoration: none;
+    background: rgb(248, 244, 124);
+    left: 17%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 30px;
+    text-transform: uppercase;
+    position: relative;
+    width: 240px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(49, 47, 47);
+    border: none;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+ 
+}
+
+.btn-conhecer:hover{
+    background-color: rgb(250, 244, 64);
+    transition: all 0.5s;
+    
+}
+
+.img-mochila{
+    width: 120px;
+	height: 120px;
+    top: -330px;
+    left: 90%;
+    position: relative;
+    
+}
+
+.img-atomo{
+    width: 70px;
+	height: 70px;
+    left: 25%;
+    top: -270px;
+    position: relative;
+}
+
+.img-lapis{
+    width: 80px;
+	height: 80px;
+    left: 32%;
+    top: -800px;
+    position: relative;
+}
+
+.img-vezes{
+    width: 40px;
+	height: 40px;
+    left: 27%;
+    top: -670px;
+    position: relative;
+}
+
+.img-dividir{
+    width: 40px;
+	height: 40px;
+    top: -640px;
+    left: -22%;
+    position: relative;
+}
+
+.img-dividir2{
+    width: 35px;
+	height: 35px;
+    top: -500px;
+    left: 30%;
+    position: relative;
+}
+
+.img-mais{
+    width: 30px;
+	height: 30px;
+    left: -19%;
+    top: -870px;
+    position: relative;
+    transform:rotate(40deg);
+}
+
+.img-atomo2{
+    width: 70px;
+	height: 70px;
+    left: -5%;
+    top: -780px;
+    position: relative;
+}
+
+.img-lapis2{
+    width: 90px;
+	height: 90px;
+    left: -34%;
+    top: -310px;
+    position: relative;
+    transform:rotate(290deg); /*rotação do objeto*/
+}
+
+/*metodologia*/
+#metodologia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.metodologia{
+    text-align: center;
+    display: flex;
+    margin-left: 160px;
+}
+
+.txt-metodologia{
+    text-align: center;
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    height: 280px;
+    padding-top: 20px;
+}
+
+.titulo-inicio{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.div-pedagogia, .div-tecnologia, .div-BNCC{
+    display: inline-block;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.tema{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+
+.img-metodologia{
+    width: 150px;
+	height: 150px;
+    padding-bottom: 20px;
+}
+
+
+/*nosso orgulho*/
+.imgorgulho{
+    position: relative;
+    right: 2px;
+}
+
+.txt-orgulho{
+    padding-left: 30px;
+    width: 700px;
+    padding-bottom: 10px;
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+}
+
+.div-nosso-orgulho{
+    display: flex;
+    margin-bottom: 55px;
+}
+
+.img-orgulho{
+    width: 150px;
+	height: 150px;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+
+.txt-nosso-orgulho{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    width: 250px;
+}
+
+.paragrafo{
+    margin-left: 99px;
+}
+
+
+/*aprendizado*/
+.aprender{
+    width: 300px;
+}
+
+.img-infantil{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.titulo-infantil{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.txt-infantil{
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+}
+
+.titulo-aprendizado{
+    color: rgb(34, 34, 34);
+    width: 400px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 450px;
+    
+}
+
+#aprendizado{
+    display: flex;
+    margin-left: 150px;
+}
+
+#titulo-aprendizado{
+    margin-top: -835px;
+    margin-left: 155px;
+}
+
+.img-bolinha{
+    width: 150px;
+    margin-left: 1030px;
+}
+
+#img-fundamental1{
+    margin-left: 620px;
+}
+
+.img-fundamental1{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.titulo-fundamental1{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 350px;
+}
+
+.txt-fundamental1{
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+}
+
+.img-fundamental2{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.titulo-fundamental2{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 350px;
+}
+
+.txt-fundamental2{
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+}
+
+#img-fundamental2{
+    margin-top: -100px;
+}
+
+.img-circulo-amarelo{
+    width: 400px;
+    margin-left: -450px;
+}
+
+.img-circulo-azul{
+    width: 500px;
+    margin-left: -400px;
+}
+
+.img-ensino-medio{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+#img-ensino-medio{
+    margin-top: -700px;
+    margin-left: 620px;
+}
+
+.txt-ensino-medio{
+    color: rgb(85, 84, 84);
+    font-family: 'Roboto', sans-serif;
+    width: 350px;
+}
+
+.titulo-ensino-medio{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 350px;
+}
+
+.img-bolinha2{
+    width: 150px;
+    margin-left: 330px;
+    margin-bottom: 200px;
+    transform:rotate(90deg);
+}
+
+/*galeria*/
+.titulo-galeria{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.div-galeria{
+    width: 100%;
+}
+
+.img-galeria1{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover ;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+    margin-right: 30px;
+    margin-top: 25px;
+    margin-left: 150px;
+    display: inline-block;
+}
+
+.img-galeria2{
+    width: 600px;
+    height: 318px;
+    border-radius: 20px;
+    object-fit: cover ;
+    margin-top: -300px;
+    margin-left: 600px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.img-galeria3{
+    width: 490px;
+    height: 300px;
+    margin-bottom: 340px;
+    margin-left: 150px;
+    border-radius: 20px;
+    object-fit: cover ;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.img-galeria4{
+    margin-top: 35px;
+    width: 450px;
+    height: 650px;
+    border-radius: 20px;
+    object-fit: cover ;
+    margin-left: 105px;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.img-galeria5{
+    width: 510px;
+    height: 320px;
+    margin-left: 150px;
+    margin-top: -385px;
+    border-radius: 20px;
+    object-fit: cover ;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+}
+
+.pirata{
+    font-weight: normal;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    width: 700px;
+    height: 250px;
+    padding: 80px 0 25px 0;;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(73, 206, 217);
+    border-radius: 25px;
+}
+
+.btn-interesse{
+    margin-left: -240px;
+    text-decoration: none;
+    background: rgb(252, 76, 134);
+    left: 17%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 20px;
+    text-transform: uppercase;
+    position: relative;
+    width: 240px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    box-shadow: 1px 1px 8px rgba(54, 50, 50, 0.415);
+ 
+}
+
+.btn-interesse:hover{
+    background-color: rgb(250, 244, 64);
+    transition: all 0.5s;
+    
+}
+
+.div-btn-interesse{
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 520px){
+    .img-inicial{
+        display: none;
+    }
+    
+}
